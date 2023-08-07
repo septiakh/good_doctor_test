@@ -1,0 +1,168 @@
+
+@GoodDoctor @Scenario001
+�Scenario: User complete the medicine purchase on Toko Kesehatan [90m# src/test/resources/features/GoodDoctorTest.feature:5[0m
+�      [31morg.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+UBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+�System info: host: 'Dede-Laptop.local', ip: 'fe80:0:0:0:1c21:5e5a:5cd7:e087%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.0.1', java.version: '17.0.5'
++Driver info: driver.version: AndroidDriver
+�remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+�    at UIA2Proxy.command (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)
+H    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+�    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)
+�    at AndroidUiautomator2Driver.fillDeviceDetails (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:244:28)
+�    at AndroidUiautomator2Driver.createSession (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:230:7)
+�    at AppiumDriver.createSession (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/lib/appium.js:387:35)
+UBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+�System info: host: 'Dede-Laptop.local', ip: 'fe80:0:0:0:1c21:5e5a:5cd7:e087%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.0.1', java.version: '17.0.5'
++Driver info: driver.version: AndroidDriver
+g	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:216)
+e	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
+_	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+Q	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+a	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+D	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+N	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+V	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+K	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)
+P	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+`	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+D	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+D	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
+N	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:97)
+C	at config.AndroidDriverInit.initialize(AndroidDriverInit.java:36)
+H	at hooks.AndroidDriverHooks.beforeScenario(AndroidDriverHooks.java:11)
+7Caused by: java.lang.reflect.InvocationTargetException
+S	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+e	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+m	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+?	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+g	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
+e	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
+_	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+Q	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+a	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+D	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+N	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+V	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+K	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)
+P	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+`	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+D	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+D	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
+N	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:97)
+C	at config.AndroidDriverInit.initialize(AndroidDriverInit.java:36)
+H	at hooks.AndroidDriverHooks.beforeScenario(AndroidDriverHooks.java:11)
+S	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+e	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+m	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+?	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+7	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+5	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+Y	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+L	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+S	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+U	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+K	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+C	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)
+;	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+;	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+=	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+^	at io.cucumber.junit.PickleRunners$WithStepDescriptions.lambda$run$1(PickleRunners.java:109)
+n	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+p	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+e	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+U	at io.cucumber.junit.PickleRunners$WithStepDescriptions.run(PickleRunners.java:106)
+E	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+D	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+@	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+D	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+F	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+D	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+E	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+E	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+>	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+@	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+;	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+:	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+@	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+D	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+F	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+D	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+E	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+M	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+L	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+H	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+I	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+E	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+>	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+u	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+o	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+o	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+�	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+t	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+S	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+e	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+m	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+?	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+Y	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+Y	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+i	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+x	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+C	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+W	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+n	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+Y	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+X	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+j	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+�	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+�	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+]	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+^	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+�Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+UBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+�System info: host: 'Dede-Laptop.local', ip: 'fe80:0:0:0:1c21:5e5a:5cd7:e087%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.0.1', java.version: '17.0.5'
++Driver info: driver.version: AndroidDriver
+�remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+�    at UIA2Proxy.command (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)
+H    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+�    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)
+�    at AndroidUiautomator2Driver.fillDeviceDetails (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:244:28)
+�    at AndroidUiautomator2Driver.createSession (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:230:7)
+�    at AppiumDriver.createSession (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/lib/appium.js:387:35)
+]	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+t	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+|	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+X	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+N	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+h	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+i	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+d	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+X	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+Y	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+_	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+^	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+T	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+[	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+S	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+T	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+W	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+[	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 86 more
+[0m
+ �  [36mGiven [0m[36muser click Nav Bar [0m[36m[1m"home"[0m                               [90m# steps.GoodDoctorSteps.userClickNavBar(java.lang.String)[0m
+ �  [36mAnd [0m[36muser set Address [0m[36m[1m"Pt Good Doctor Technology Indonesia"[0m    [90m# steps.GoodDoctorSteps.userSetAddress(java.lang.String)[0m
+ �  [36mWhen [0m[36muser click Nav Bar [0m[36m[1m"store"[0m                               [90m# steps.GoodDoctorSteps.userClickNavBar(java.lang.String)[0m
+ �  [36mAnd [0m[36muser input product [0m[36m[1m"Promag Sach 7 Ml/ Dos"[0m[36m on search box[0m  [90m# steps.GoodDoctorSteps.userInputProductOnSearchBox(java.lang.String)[0m
+ �  [36mAnd [0m[36muser select the first item[0m                                [90m# steps.GoodDoctorSteps.userSelectTheFirstItem()[0m
+ �  [36mAnd [0m[36muser click Add to Cart[0m                                    [90m# steps.GoodDoctorSteps.userClickAddToCart()[0m
+ �      [31mjava.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.quit()" because "config.AndroidDriverInit.driver" is null
+ =	at config.AndroidDriverInit.quit(AndroidDriverInit.java:55)
+ G	at hooks.AndroidDriverHooks.afterScenario(AndroidDriverHooks.java:16)
+ [0m
+  �[32m[1m┌──────────────────────────────────────────────────────────────────────────┐[0m
+  k[32m[1m│[0m View your Cucumber Report at:                                            [32m[1m│[0m
+  |[32m[1m│[0m [1m[36m[4mhttps://reports.cucumber.io/reports/1b1661da-d27a-482f-91f0-95b4482895b1[0m [32m[1m│[0m
+  k[32m[1m│[0m                                                                          [32m[1m│[0m
+  s[32m[1m│[0m [1mThis report will self-destruct in 24h.[0m                                   [32m[1m│[0m
+  |[32m[1m│[0m Keep reports forever: [4m[1m[36mhttps://reports.cucumber.io/profile[0m                [32m[1m│[0m
+  �[32m[1m└──────────────────────────────────────────────────────────────────────────┘[0m
